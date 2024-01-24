@@ -1,10 +1,6 @@
 .header{
     background-color: rebeccapurple;
-    padding: 30px;
-}
-.image:hover{
-transition: transform 0.3s ease-in-out;
-transform: scale(1.9);
+    padding: 10px;
 }
 #container {
     text-align: center;
@@ -14,6 +10,41 @@ h1 {
     margin-left: 5px;
     font-size: 32px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#socials{
+    position: absolute;
+}
+#socials li{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    list-style: none;
+    top: 0;
+}
+#socials li, #socials a{
+    height:10px;
+    display: inline-block;
+}
+.facebook{
+    background: url('./images/socials.png') no-repeat -1525px -269px;
+	width: 48px;
+	height: 47px;
+}
+.youtube{
+    background: url('./images/socials.png') no-repeat -1620px -269px;
+	width: 47px;
+	height: 47px;
+}
+.facebook:hover{
+	background: url('./images/socials.png') no-repeat -1525px -336px;
+	width: 48px;
+	height: 47px;
+}
+.youtube:hover{
+    background: url('./images/socials.png') no-repeat -1620px -336px;
+	width: 47px;
+	height: 48px;
+
 }
 .p1 {
     display: inline-block;
@@ -48,51 +79,8 @@ a {
 }
 a:hover{
     background-color:blueviolet;
-    transform: scale(1.0);
     transition: transform 0.3s ease-in-out;
 }
 .Audio p5{
     margin-left: 1000px;
 }
-#socials{
-    position: absolute;
-}
-#socials li{
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-    list-style: none;
-    top: 0;
-}
-#socials li, #socials a{
-    height:44px;
-    display: inline-block;
-}
-
-.facebook {
-	background: url('../images/socials.png') no-repeat -273px -246px;
-	width: 47px;
-	height: 47px;
-}
-
-.youtube{
-    background: url('../images/socials.png') no-repeat -381px -246px;
-	width: 47px;
-	height: 47px;
-}
-.facebook:hover{
-	background: url('../images/socials.png') no-repeat -273px -314px;
-	width: 47px;
-	height: 47px;
-    transition: transform 0.3s ease-in-out;
-    transform: scale(0.8);
-
-}
-.youtube:hover{
-	background: url('../images/socials.png') no-repeat -381px -314px;
-	width: 47px;
-	height: 47px;
-    transition: transform 0.3s ease-in-out;
-    transform: scale(0.8);
-}
-
